@@ -26,7 +26,6 @@ const Screenshots = ({ images }: ScreenshotsGallery) => {
 							<button
 								key={`${activeDevice}-${index}`}
 								type="button"
-								onClick={() => window.openLightbox?.(index, activeDevice)}
 								className="relative flex-shrink-0 overflow-hidden rounded-xl focus:outline-none"
 							>
                 {/* 核心判断：仅iphone设备+第一个位置渲染视频，其余保持原有图片 */}
@@ -46,6 +45,7 @@ const Screenshots = ({ images }: ScreenshotsGallery) => {
                     autoPlay
                     muted
                     playsInline
+                    loop
                   />
                 ) : (
                   // 原有图片逻辑：完全保留，无任何改动

@@ -44,7 +44,7 @@ export const features: Feature[] = [
 	},
 	{
 		title: "Photo Wall",
-		description: "Shake your phone. Each day becomes a photo from your records. From the Photo Wall, you can continue to Memories and Share.",
+		description: "↙↗. Shake your phone. Each day becomes a photo from your records. From the Photo Wall, you can continue to Memories and Share.",
 		icon: "FiSmartphone",
 	},
 	{
@@ -65,7 +65,7 @@ export const features: Feature[] = [
 	{
 		title: "Switch Years",
 		description: "←←/→→. Swipe left or right with two fingers to switch years.",
-		icon: "FiShare2",
+		icon: "FiCalendar",
 	},
 	// Add more features here...
 ];
