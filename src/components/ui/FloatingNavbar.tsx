@@ -38,7 +38,11 @@ const FloatingNavbar = ({ logo, title, storeLinks, socialLinks }: FloatingNavbar
                                     <h2 className="text-lg md:text-xl font-bold text-heading tracking-tight group-hover:text-gray-900 dark:group-hover:text-white transition-colors">{title}</h2>
                                 </a>
 
-                                <div className="flex gap-2.5 md:gap-3 md:justify-center">
+                                <div className="hidden md:flex gap-2.5 justify-center">
+                                    
+                                </div>
+
+                                <div className="flex gap-2.5 md:gap-3 md:justify-end">
                                     <a href={storeLinks.apple} target="_blank" rel="noopener noreferrer" className="group store-button">
                                         <FaApple className="text-gray-600 dark:text-gray-300 group-hover:scale-110 group-hover:text-gray-800 dark:group-hover:text-white transition-all w-6 h-6 md:w-6 md:h-6" />
                                         <span className="hidden lg:block text-left min-w-0">
@@ -46,18 +50,6 @@ const FloatingNavbar = ({ logo, title, storeLinks, socialLinks }: FloatingNavbar
                                             <div className="text-base font-semibold tracking-wide text-heading group-hover:text-gray-900 dark:group-hover:text-white leading-tight transition-colors">App Store</div>
                                         </span>
                                     </a>
-
-                                    <a href={storeLinks.google} target="_blank" rel="noopener noreferrer" className="group store-button">
-                                        <FaGooglePlay className="text-gray-600 dark:text-gray-300 group-hover:scale-110 group-hover:text-gray-800 dark:group-hover:text-white transition-all w-5 h-5 md:w-5 md:h-5" />
-                                        <span className="hidden lg:block text-left min-w-0">
-                                            <div className="text-xs font-medium text-gray-500 dark:text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300 leading-tight transition-colors">Get it on</div>
-                                            <div className="text-base font-semibold tracking-wide text-heading group-hover:text-gray-900 dark:group-hover:text-white leading-tight transition-colors">Google Play</div>
-                                        </span>
-                                    </a>
-                                </div>
-
-                                <div className="hidden md:flex gap-2.5 justify-end">
-                                    <SocialLinks items={socialLinks} />
                                 </div>
                             </div>
                         </div>

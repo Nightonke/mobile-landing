@@ -62,6 +62,6 @@ We may update this policy from time to time. When we make significant changes:
 
 If you have questions about this privacy policy:
 
-- **Email:** privacy@example.com
-- **Support:** help.example.com
+- **Email:** daysinyear@foxmail.com
+- **Support:** daysinyear@foxmail.com
 - **Response time:** Within 48 hours

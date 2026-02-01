@@ -71,7 +71,7 @@
 
 
 import type { IconType } from "react-icons";
-import { FiBox, FiStar, FiZap } from "react-icons/fi";
+import { FiEye, FiEdit2, FiMousePointer, FiSettings, FiBarChart, FiClock, FiSmartphone, FiShare2, FiFilter, FiSearch, FiCalendar } from "react-icons/fi";
 import {
 	RiInstagramFill,
 	RiTelegram2Fill,
@@ -79,9 +79,17 @@ import {
 } from "react-icons/ri";
 
 const iconMap: Record<string, IconType> = {
-	FiStar,
-	FiZap,
-	FiBox,
+	FiEye,
+	FiEdit2,
+	FiMousePointer,
+	FiSettings,
+	FiBarChart,
+	FiClock,
+	FiSmartphone,
+	FiShare2,
+	FiFilter,
+	FiSearch,
+	FiCalendar,
 	RiInstagramFill,
 	RiTelegram2Fill,
 	RiTwitterXFill,

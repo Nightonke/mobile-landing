@@ -22,20 +22,5 @@ import type { SocialLink } from "@/types/content";
  * More icons: https://react-icons.github.io/react-icons/
  */
 export const socialLinks: SocialLink[] = [
-	{
-		url: "#", // Replace with your Instagram URL
-		icon: "RiInstagramFill",
-		label: "Instagram",
-	},
-	{
-		url: "#", // Replace with your Telegram URL
-		icon: "RiTelegram2Fill",
-		label: "Telegram",
-	},
-	{
-		url: "#", // Replace with your Twitter/X URL
-		icon: "RiTwitterXFill",
-		label: "X (Twitter)",
-	},
 	// Add more social links here...
 ];

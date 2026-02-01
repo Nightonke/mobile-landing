@@ -80,9 +80,6 @@ const Footer = ({ name, logo, description }: FooterProps) => {
 
 					<div className="flex items-center justify-between pt-6 border-t border-gray-200/30 dark:border-gray-700/30">
 						<div className="flex items-center gap-6">
-							<div className="flex gap-3">
-								<SocialLinks items={siteConfig.socialLinks} />
-							</div>
 							<div className="text-base text-body">{copyrightText}</div>
 						</div>
 						<LegalLinks />

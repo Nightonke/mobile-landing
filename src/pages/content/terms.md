@@ -102,8 +102,6 @@ We may modify these terms:
 
 For questions about these terms:
 
-- **Email:** legal@example.com
-- **Address:** 123 Tech Street, Suite 100, San Francisco, CA 94105
-- **Phone:** (555) 123-4567
+- **Email:** daysinyear@foxmail.com
 - **Business hours:** Monday-Friday, 9AM-5PM PST
 

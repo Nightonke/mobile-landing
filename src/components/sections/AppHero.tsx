@@ -8,11 +8,11 @@ const AppHero = ({ title, description, storeLinks, logo, rating, ageRating, vers
 		<div className="flex flex-1 flex-col md:flex-row gap-8 items-start text-center md:text-left">
 			<div className="flex-shrink-0 self-center md:self-start">
 				<div className="group/icon rounded-2xl border border-gray-200/50 dark:border-white/10 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-white/[0.02] dark:to-white/[0.05] p-7 w-56 h-56 flex items-center justify-center shadow-sm hover:shadow-md transition-all duration-300">
-					<img
-						src={logo}
-						alt={`${title} Icon`}
-						className="h-48 w-48 rounded-2xl object-cover group-hover/icon:scale-105 transition-transform duration-300"
-					/>
+				  <img
+				    src={logo}
+				    alt={`${title} Icon`}
+				    className="w-full h-full rounded-2xl object-contain object-center group-hover/icon:scale-105 transition-transform duration-300"
+				  />
 				</div>
 			</div>
 
@@ -58,10 +58,9 @@ const AppHero = ({ title, description, storeLinks, logo, rating, ageRating, vers
 			</div>
 		</div>
 
-		<div className="w-full max-w-md mx-auto grid grid-cols-2 gap-3 md:flex md:flex-col md:mx-0 md:w-auto md:flex-shrink-0">
+		<div className="w-full max-w-md mx-auto grid grid-cols-1 gap-3 md:flex md:flex-col md:mx-0 md:w-auto md:flex-shrink-0">
 			{[
 				{ href: storeLinks.apple, icon: FaApple, label: "Download on the", store: "App Store", iconSize: "w-6 h-6" },
-				{ href: storeLinks.google, icon: FaGooglePlay, label: "Get it on", store: "Google Play", iconSize: "w-5 h-5" }
 			].map(({ href, icon: Icon, label, store, iconSize }) => (
 				<a
 					key={store}
